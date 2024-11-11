@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LLM Generation</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>LLM Generation</h1>
+      <p class="subtitle">A fully open-source AI-powered answer engine</p>
+    </header>
+
+    <div class="query-section">
+      <label for="query"></label>
+      <input type="text" id="query" placeholder="Ask me something" >
+      <button onclick="submitQuery()">Search</button>
+    </div>
+
+      <div class="answer-section">
+        <h2>Answer</h2>
+        <div id="response" class="answer">Your answer will appear here.</div>
+      </div>
+    </div>
+
+<script src = "/static/query.js"></script>
+</body>
+</html>
